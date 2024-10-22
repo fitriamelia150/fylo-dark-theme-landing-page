@@ -1,12 +1,11 @@
-import './App.css'
+import {HomePage as HomePage} from './pages'
+
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
+      <HomePage />
     </>
   )
 }
