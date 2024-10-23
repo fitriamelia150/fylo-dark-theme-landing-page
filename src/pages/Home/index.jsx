@@ -1,10 +1,11 @@
-import { Navbar, Body } from '../../components';
+import { Navbar, Body, Footer } from '../../components';
 
 const Home = () => {
     return (
         <>
             <Navbar/>
             <Body/>
+            <Footer/>
         </>
     )
 }

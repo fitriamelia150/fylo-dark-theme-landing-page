@@ -1,4 +1,4 @@
-import Navbar from "./Navbar"
-import Body from "./Body"
+import TestimoniCard from "./TestimoniCard";
+import SubscribeCard from "./SubscribeCard";
 
-export {Navbar, Body}
+export {TestimoniCard, SubscribeCard}

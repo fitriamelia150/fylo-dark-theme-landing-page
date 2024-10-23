@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .part-2-section {
+        @apply flex flex-col gap-3 items-center
+    }
+
+    .part-2-section h1 {
+        @apply text-lg font-bold mt-5
+    }
+
+    .part-2-section p {
+        @apply text-sm text-center
+    }
+
+    .part-2-section img {
+        @apply w-20
+    }
+}
