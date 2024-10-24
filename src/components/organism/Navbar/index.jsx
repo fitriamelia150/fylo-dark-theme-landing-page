@@ -9,9 +9,9 @@ const Navbar = () =>{
             </div>
         
             <div className="text-neutral-white flex gap-3 capitalize font-light text-xs">
-                <p>feature</p>
-                <p>team</p>
-                <p>sign in</p>
+                <p className='hover-link-menu cursor-pointer'>feature</p>
+                <p className='hover-link-menu cursor-pointer'>team</p>
+                <p className='hover-link-menu cursor-pointer'>sign in</p>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ import bgQuotes from './../../../assets/images/bg-quotes.png'
 const Main = () => {
     return (
         <div className="flex flex-col">
-            <div className="part-2 flex flex-col gap-28 px-10">
+            <div className="part-2 flex flex-col gap-28 px-10 md:flex-row md:flex-wrap md:px-60">
                 <div className="part-2-section">
                     <img src={icon1} alt="access-image" />
                     <h1>Access your files, anywhere</h1>
@@ -43,7 +43,7 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className="part-3 flex flex-col gap-5 px-10 pt-40">
+            <div className="part-3 flex flex-col gap-5 px-8 pt-40">
                 <img src={image2} alt="image-3" />
                 <h1 className="text-lg font-bold mt-10">Stay productive, wherever you are</h1>
                 <p className="text-sm">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>

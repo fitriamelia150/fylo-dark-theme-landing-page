@@ -20,4 +20,12 @@
     .part-2-section img {
         @apply w-20
     }
+
+    .hover-link-menu {
+        @apply hover:underline hover:font-semibold
+    }
+
+    .hover-button {
+        @apply hover:bg-cyan-300
+    }
 }

@@ -7,7 +7,7 @@ const SubscribeCard = ({highlight, desc, button}) => {
             <h1 className="font-bold text-xl">{highlight}</h1>
             <p className="text-center text-sm">{desc}</p>
             <Input placeholder="email.examle.com"/>
-            <Button label={button}/>
+            <Button label={button} size="w-full"/>
         </div>
     )
 }
